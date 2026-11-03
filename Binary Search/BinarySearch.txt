@@ -1,0 +1,34 @@
+1. Definition
+Binary Search is a divide-and-conquer algorithm that repeatedly divides a sorted array or search space in half to find a target value or the optimal solution.
+- Time Complexity: O(log n)
+- Space Complexity:
+  - O(1) for iterative version.
+  - O(log n) for recursive version (due to call stack).
+
+
+
+2. Where It Can Apply
+Binary Search can be applied in two major contexts:
+A. Classic Binary Search on Arrays
+- When you are given a sorted array, and you need to find a particular element or condition.
+B. Binary Search on Answer / Search Space
+- When the search space is numeric or monotonically increasing/decreasing, and you are asked to find:
+- The minimum/maximum possible value.
+- First/last position that satisfies a condition.
+- Optimal value based on some constraint.
+
+
+3. How to Identify Binary Search Pattern
+Look for these signs:
+Array is sorted : 	Find an element in sorted array
+Asked to find first/last occurrence	First Bad Version
+Question asks for "minimum days", "maximum capacity", "smallest/largest X such that..."	Ship Within D Days, Split Array Largest Sum
+You're allowed to search within a range	Between 1 to n, guess the number
+
+4. Common Problem Categories Using Binary Search
+Category	                       Example Problem
+Search in Sorted Array	    Binary Search, Search in Rotated Array
+Find First/Last Position	First Bad Version, Find Peak Element
+Min/Max Condition Value	    Capacity to Ship Packages, Koko Eating Bananas
+Search on Custom Function	Guess Number, H-index
+Lower/Upper Bound	        Insert Position, Floor/Ceil in BST
